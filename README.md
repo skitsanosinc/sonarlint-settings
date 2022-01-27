@@ -17,3 +17,9 @@ On Windows:
 Replace `{WEBSTORM_VERSION}` with the version you want to use.
 
 Keep your Webstorm closed while you change SonarLint rule set, or at least restart it when you are done.
+
+## About SonarLint
+
+SonarLint is a Free and Open Source IDE extension that identifies and helps you fix quality and security issues as you code. Like a spell checker, SonarLint squiggles flaws and provides real-time feedback and clear remediation guidance to deliver clean code from the get-go.
+
+For more details, visit [https://www.sonarlint.org/](https://www.sonarlint.org/)
