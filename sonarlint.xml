@@ -1,173 +1,502 @@
 <application>
   <component name="SonarLintGlobalSettings">
-    <option name="secretsNeverBeenAnalysed" value="false" />
+    <option name="rulesByKey">
+      <map>
+        <entry key="Web:DoubleQuotesCheck">
+          <value>
+            <Rule key="Web:DoubleQuotesCheck" />
+          </value>
+        </entry>
+        <entry key="Web:LinkToNothingCheck">
+          <value>
+            <Rule key="Web:LinkToNothingCheck" />
+          </value>
+        </entry>
+        <entry key="Web:PageWithoutFaviconCheck">
+          <value>
+            <Rule key="Web:PageWithoutFaviconCheck" />
+          </value>
+        </entry>
+        <entry key="css:S4664">
+          <value>
+            <Rule key="css:S4664" />
+          </value>
+        </entry>
+        <entry key="css:S5362">
+          <value>
+            <Rule key="css:S5362" />
+          </value>
+        </entry>
+        <entry key="javascript:S1066">
+          <value>
+            <Rule key="javascript:S1066" />
+          </value>
+        </entry>
+        <entry key="javascript:S1110">
+          <value>
+            <Rule key="javascript:S1110" />
+          </value>
+        </entry>
+        <entry key="javascript:S1117">
+          <value>
+            <Rule key="javascript:S1117" />
+          </value>
+        </entry>
+        <entry key="javascript:S1154">
+          <value>
+            <Rule key="javascript:S1154" />
+          </value>
+        </entry>
+        <entry key="javascript:S117">
+          <value>
+            <Rule key="javascript:S117" />
+          </value>
+        </entry>
+        <entry key="javascript:S1172">
+          <value>
+            <Rule key="javascript:S1172" />
+          </value>
+        </entry>
+        <entry key="javascript:S121">
+          <value>
+            <Rule key="javascript:S121" />
+          </value>
+        </entry>
+        <entry key="javascript:S122">
+          <value>
+            <Rule key="javascript:S122" />
+          </value>
+        </entry>
+        <entry key="javascript:S131">
+          <value>
+            <Rule key="javascript:S131" />
+          </value>
+        </entry>
+        <entry key="javascript:S139">
+          <value>
+            <Rule key="javascript:S139" />
+          </value>
+        </entry>
+        <entry key="javascript:S1438">
+          <value>
+            <Rule key="javascript:S1438" />
+          </value>
+        </entry>
+        <entry key="javascript:S1440">
+          <value>
+            <Rule key="javascript:S1440" />
+          </value>
+        </entry>
+        <entry key="javascript:S1441">
+          <value>
+            <Rule key="javascript:S1441" />
+          </value>
+        </entry>
+        <entry key="javascript:S1442">
+          <value>
+            <Rule key="javascript:S1442" />
+          </value>
+        </entry>
+        <entry key="javascript:S1488">
+          <value>
+            <Rule key="javascript:S1488" />
+          </value>
+        </entry>
+        <entry key="javascript:S1525">
+          <value>
+            <Rule key="javascript:S1525" />
+          </value>
+        </entry>
+        <entry key="javascript:S1530">
+          <value>
+            <Rule key="javascript:S1530" />
+          </value>
+        </entry>
+        <entry key="javascript:S1537">
+          <value>
+            <Rule key="javascript:S1537" />
+          </value>
+        </entry>
+        <entry key="javascript:S2208">
+          <value>
+            <Rule key="javascript:S2208" />
+          </value>
+        </entry>
+        <entry key="javascript:S2260">
+          <value>
+            <Rule key="javascript:S2260" />
+          </value>
+        </entry>
+        <entry key="javascript:S2424">
+          <value>
+            <Rule key="javascript:S2424" />
+          </value>
+        </entry>
+        <entry key="javascript:S2428">
+          <value>
+            <Rule key="javascript:S2428" />
+          </value>
+        </entry>
+        <entry key="javascript:S3003">
+          <value>
+            <Rule key="javascript:S3003" />
+          </value>
+        </entry>
+        <entry key="javascript:S3317">
+          <value>
+            <Rule key="javascript:S3317" />
+          </value>
+        </entry>
+        <entry key="javascript:S3353">
+          <value>
+            <Rule key="javascript:S3353" />
+          </value>
+        </entry>
+        <entry key="javascript:S3402">
+          <value>
+            <Rule key="javascript:S3402" />
+          </value>
+        </entry>
+        <entry key="javascript:S3498">
+          <value>
+            <Rule key="javascript:S3498" />
+          </value>
+        </entry>
+        <entry key="javascript:S3499">
+          <value>
+            <Rule key="javascript:S3499" />
+          </value>
+        </entry>
+        <entry key="javascript:S3512">
+          <value>
+            <Rule key="javascript:S3512" />
+          </value>
+        </entry>
+        <entry key="javascript:S3514">
+          <value>
+            <Rule key="javascript:S3514" />
+          </value>
+        </entry>
+        <entry key="javascript:S3523">
+          <value>
+            <Rule key="javascript:S3523" />
+          </value>
+        </entry>
+        <entry key="javascript:S3525">
+          <value>
+            <Rule key="javascript:S3525" />
+          </value>
+        </entry>
+        <entry key="javascript:S3758">
+          <value>
+            <Rule key="javascript:S3758" />
+          </value>
+        </entry>
+        <entry key="javascript:S3786">
+          <value>
+            <Rule key="javascript:S3786" />
+          </value>
+        </entry>
+        <entry key="javascript:S3801">
+          <value>
+            <Rule key="javascript:S3801" />
+          </value>
+        </entry>
+        <entry key="javascript:S5867">
+          <value>
+            <Rule key="javascript:S5867" />
+          </value>
+        </entry>
+        <entry key="typescript:S1066">
+          <value>
+            <Rule key="typescript:S1066" />
+          </value>
+        </entry>
+        <entry key="typescript:S1110">
+          <value>
+            <Rule key="typescript:S1110" />
+          </value>
+        </entry>
+        <entry key="typescript:S1117">
+          <value>
+            <Rule key="typescript:S1117" />
+          </value>
+        </entry>
+        <entry key="typescript:S1154">
+          <value>
+            <Rule key="typescript:S1154" />
+          </value>
+        </entry>
+        <entry key="typescript:S117">
+          <value>
+            <Rule key="typescript:S117" />
+          </value>
+        </entry>
+        <entry key="typescript:S1172">
+          <value>
+            <Rule key="typescript:S1172" />
+          </value>
+        </entry>
+        <entry key="typescript:S1192">
+          <value>
+            <Rule key="typescript:S1192" />
+          </value>
+        </entry>
+        <entry key="typescript:S121">
+          <value>
+            <Rule key="typescript:S121" />
+          </value>
+        </entry>
+        <entry key="typescript:S131">
+          <value>
+            <Rule key="typescript:S131" />
+          </value>
+        </entry>
+        <entry key="typescript:S139">
+          <value>
+            <Rule key="typescript:S139" />
+          </value>
+        </entry>
+        <entry key="typescript:S1438">
+          <value>
+            <Rule key="typescript:S1438" />
+          </value>
+        </entry>
+        <entry key="typescript:S1440">
+          <value>
+            <Rule key="typescript:S1440" />
+          </value>
+        </entry>
+        <entry key="typescript:S1441">
+          <value>
+            <Rule key="typescript:S1441" />
+          </value>
+        </entry>
+        <entry key="typescript:S1528">
+          <value>
+            <Rule key="typescript:S1528" />
+          </value>
+        </entry>
+        <entry key="typescript:S1530">
+          <value>
+            <Rule key="typescript:S1530" />
+          </value>
+        </entry>
+        <entry key="typescript:S1535">
+          <value>
+            <Rule key="typescript:S1535" />
+          </value>
+        </entry>
+        <entry key="typescript:S1537">
+          <value>
+            <Rule key="typescript:S1537" />
+          </value>
+        </entry>
+        <entry key="typescript:S2138">
+          <value>
+            <Rule key="typescript:S2138" />
+          </value>
+        </entry>
+        <entry key="typescript:S2208">
+          <value>
+            <Rule key="typescript:S2208" />
+          </value>
+        </entry>
+        <entry key="typescript:S2260">
+          <value>
+            <Rule key="typescript:S2260" />
+          </value>
+        </entry>
+        <entry key="typescript:S2424">
+          <value>
+            <Rule key="typescript:S2424" />
+          </value>
+        </entry>
+        <entry key="typescript:S2427">
+          <value>
+            <Rule key="typescript:S2427" />
+          </value>
+        </entry>
+        <entry key="typescript:S3003">
+          <value>
+            <Rule key="typescript:S3003" />
+          </value>
+        </entry>
+        <entry key="typescript:S3402">
+          <value>
+            <Rule key="typescript:S3402" />
+          </value>
+        </entry>
+        <entry key="typescript:S3499">
+          <value>
+            <Rule key="typescript:S3499" />
+          </value>
+        </entry>
+        <entry key="typescript:S3512">
+          <value>
+            <Rule key="typescript:S3512" />
+          </value>
+        </entry>
+        <entry key="typescript:S3513">
+          <value>
+            <Rule key="typescript:S3513" />
+          </value>
+        </entry>
+        <entry key="typescript:S3524">
+          <value>
+            <Rule key="typescript:S3524" />
+          </value>
+        </entry>
+        <entry key="typescript:S3525">
+          <value>
+            <Rule key="typescript:S3525" />
+          </value>
+        </entry>
+        <entry key="typescript:S3533">
+          <value>
+            <Rule key="typescript:S3533" />
+          </value>
+        </entry>
+        <entry key="typescript:S3786">
+          <value>
+            <Rule key="typescript:S3786" />
+          </value>
+        </entry>
+        <entry key="typescript:S3801">
+          <value>
+            <Rule key="typescript:S3801" />
+          </value>
+        </entry>
+        <entry key="typescript:S3973">
+          <value>
+            <Rule key="typescript:S3973" />
+          </value>
+        </entry>
+        <entry key="typescript:S4023">
+          <value>
+            <Rule key="typescript:S4023" />
+          </value>
+        </entry>
+        <entry key="typescript:S4137">
+          <value>
+            <Rule key="typescript:S4137" />
+          </value>
+        </entry>
+        <entry key="typescript:S4139">
+          <value>
+            <Rule key="typescript:S4139" />
+          </value>
+        </entry>
+        <entry key="typescript:S4204">
+          <value>
+            <Rule key="typescript:S4204" />
+          </value>
+        </entry>
+        <entry key="typescript:S4326">
+          <value>
+            <Rule key="typescript:S4326" />
+          </value>
+        </entry>
+        <entry key="typescript:S4327">
+          <value>
+            <Rule key="typescript:S4327" />
+          </value>
+        </entry>
+        <entry key="typescript:S4798">
+          <value>
+            <Rule key="typescript:S4798" />
+          </value>
+        </entry>
+        <entry key="typescript:S5867">
+          <value>
+            <Rule key="typescript:S5867" />
+          </value>
+        </entry>
+      </map>
+    </option>
     <rules>
-      <Rule key="typescript:S1525" />
-      <Rule key="typescript:S909" />
-      <Rule key="typescript:S1526" />
-      <Rule key="typescript:S3786" />
-      <Rule key="javascript:S1526" />
-      <Rule key="javascript:ExcessiveParameterList" />
-      <Rule key="javascript:S1525" />
-      <Rule key="javascript:ParsingError" />
-      <Rule key="typescript:S1528" />
-      <Rule key="javascript:S3786" />
-      <Rule key="Web:InlineStyleCheck" />
-      <Rule key="Web:UnclosedTagCheck" />
-      <Rule key="javascript:S1528" />
-      <Rule key="javascript:S3827" />
-      <Rule key="typescript:S1131" />
-      <Rule key="javascript:CollapsibleIfStatements" />
-      <Rule key="typescript:S1530" />
-      <Rule key="typescript:S117" />
-      <Rule key="javascript:S3498" />
-      <Rule key="javascript:S3499" />
-      <Rule key="typescript:S1537" />
-      <Rule key="javascript:S106" />
-      <Rule active="false" key="javascript:S105" />
-      <Rule active="false" key="javascript:S109" />
-      <Rule key="javascript:AssignmentWithinCondition" />
-      <Rule key="javascript:S2208" />
-      <Rule key="javascript:ForIn" />
-      <Rule key="javascript:Semicolon" />
-      <Rule active="false" key="javascript:ConditionalOperator" />
-      <Rule key="typescript:S1539" />
-      <Rule active="false" key="javascript:S3533" />
-      <Rule key="javascript:S909" />
-      <Rule key="Web:ParentElementIllegalCheck" />
-      <Rule key="typescript:S100" />
-      <Rule key="javascript:CurlyBraces" />
-      <Rule key="typescript:S4137" />
-      <Rule key="typescript:S4136" />
-      <Rule key="typescript:S1541" />
-      <Rule key="typescript:S106" />
-      <Rule active="false" key="typescript:S105" />
-      <Rule key="javascript:S1067" />
-      <Rule key="javascript:S3003" />
-      <Rule key="javascript:S117" />
-      <Rule key="javascript:S1066" />
-      <Rule key="javascript:VariableDeclarationAfterUsage" />
-      <Rule key="javascript:S3760" />
-      <Rule key="javascript:ConditionalComment" />
-      <Rule key="typescript:S4139" />
-      <Rule key="javascript:S2392" />
-      <Rule key="javascript:S2714" />
-      <Rule key="javascript:S2715" />
-      <Rule key="Web:IllegalElementCheck" />
-      <Rule key="javascript:S3801" />
-      <Rule key="javascript:S2713" />
-      <Rule key="javascript:S3525" />
-      <Rule key="javascript:S3524" />
-      <Rule key="javascript:S3523" />
-      <Rule key="javascript:S3402" />
-      <Rule key="javascript:NamedFunctionExpression" />
-      <Rule key="typescript:S131" />
-      <Rule key="javascript:S2716" />
-      <Rule key="typescript:S1154" />
-      <Rule key="javascript:S1192" />
-      <Rule key="Web:IllegalTabCheck" />
-      <Rule key="javascript:LabelPlacement" />
-      <Rule key="typescript:S139" />
-      <Rule key="Web:IllegalAttributeCheck" />
-      <Rule key="typescript:S4023" />
-      <Rule key="javascript:S3353" />
-      <Rule key="typescript:S1438" />
-      <Rule key="javascript:S2260" />
-      <Rule key="javascript:S1172" />
-      <Rule key="javascript:S2549" />
-      <Rule key="javascript:S2428" />
-      <Rule key="javascript:S3759" />
-      <Rule key="javascript:S3758" />
-      <Rule key="javascript:S2427" />
-      <Rule key="javascript:S3757" />
-      <Rule key="javascript:S3514" />
-      <Rule key="javascript:S2424" />
-      <Rule key="javascript:S3513" />
-      <Rule key="javascript:S3512" />
-      <Rule key="javascript:S1697" />
-      <Rule key="javascript:ConstructorFunctionsForSideEffects" />
-      <Rule key="javascript:BoundOrAssignedEvalOrArguments" />
-      <Rule key="typescript:S881" />
-      <Rule key="typescript:S122" />
-      <Rule key="typescript:S121" />
-      <Rule key="javascript:S122" />
-      <Rule key="typescript:S4157" />
-      <Rule key="javascript:S881" />
-      <Rule key="typescript:S1440" />
-      <Rule key="javascript:S121" />
-      <Rule key="typescript:S1441" />
-      <Rule key="Web:ChildElementIllegalCheck" />
       <Rule key="javascript:S1441" />
-      <Rule key="typescript:S2933" />
-      <Rule key="typescript:S3504" />
       <Rule key="javascript:S1442" />
-      <Rule key="javascript:S2770" />
       <Rule key="javascript:S139" />
       <Rule key="javascript:S1440" />
+      <Rule key="typescript:S3786" />
       <Rule key="typescript:S4798" />
-      <Rule key="javascript:ArrayAndObjectConstructors" />
       <Rule key="typescript:S2138" />
-      <Rule key="javascript:S3504" />
-      <Rule key="Web:DynamicJspIncludeCheck" />
-      <Rule key="javascript:S2138" />
-      <Rule key="javascript:S2898" />
+      <Rule key="javascript:S1525" />
+      <Rule key="typescript:S1528" />
       <Rule key="Web:LinkToNothingCheck" />
-      <Rule key="typescript:S2817" />
-      <Rule key="javascript:S2817" />
-      <Rule key="javascript:S3509" />
-      <Rule key="javascript:EqEqEq" />
-      <Rule key="typescript:S3353" />
-      <Rule key="typescript:S4324" />
+      <Rule key="javascript:S1488" />
+      <Rule key="javascript:S3786" />
       <Rule key="javascript:S131" />
-      <Rule key="javascript:HtmlComments" />
+      <Rule key="typescript:S1530" />
       <Rule key="typescript:S2260" />
-      <Rule key="javascript:S134" />
+      <Rule key="typescript:S117" />
+      <Rule key="typescript:S1172" />
+      <Rule key="typescript:S1535" />
+      <Rule key="javascript:S3498" />
       <Rule key="typescript:S2427" />
-      <Rule key="javascript:S2762" />
+      <Rule key="javascript:S3499" />
+      <Rule key="typescript:S1537" />
+      <Rule key="javascript:S1110" />
       <Rule key="javascript:S1154" />
       <Rule key="typescript:S3512" />
-      <Rule key="typescript:S4328" />
-      <Rule key="typescript:S3514" />
+      <Rule key="typescript:S4326" />
+      <Rule key="typescript:S4204" />
       <Rule key="typescript:S2424" />
-      <Rule key="typescript:S4327" />
       <Rule key="typescript:S3513" />
+      <Rule key="typescript:S4327" />
+      <Rule key="javascript:S2208" />
       <Rule key="javascript:S1438" />
-      <Rule key="javascript:S2769" />
+      <Rule key="javascript:S1117" />
       <Rule key="typescript:S1066" />
+      <Rule key="typescript:S4137" />
       <Rule key="typescript:S3003" />
-      <Rule key="typescript:S2392" />
-      <Rule key="javascript:OneStatementPerLine" />
-      <Rule key="Web:WmodeIsWindowCheck" />
       <Rule key="Web:DoubleQuotesCheck" />
+      <Rule key="javascript:S3003" />
       <Rule key="typescript:S3801" />
-      <Rule key="javascript:S1145" />
+      <Rule key="javascript:S117" />
+      <Rule key="javascript:S1066" />
+      <Rule key="typescript:S4139" />
       <Rule key="typescript:S3402" />
-      <Rule key="Web:ChildElementRequiredCheck" />
       <Rule key="typescript:S3525" />
+      <Rule key="typescript:S5867" />
       <Rule key="typescript:S3524" />
-      <Rule key="javascript:UnusedFunctionArgument" />
-      <Rule key="javascript:S1821" />
-      <Rule key="javascript:S4139" />
+      <Rule key="javascript:S3801" />
+      <Rule key="javascript:S3525" />
+      <Rule key="javascript:S5867" />
+      <Rule key="javascript:S3523" />
+      <Rule key="javascript:S3402" />
       <Rule key="typescript:S1192" />
-      <Rule key="squid:S1698" />
+      <Rule key="typescript:S131" />
+      <Rule key="css:S5362" />
+      <Rule key="typescript:S1154" />
+      <Rule key="typescript:S1110" />
       <Rule key="typescript:S3499" />
-      <Rule key="typescript:S3498" />
-      <Rule key="typescript:S3257" />
-      <Rule key="javascript:SingleQuote" />
-      <Rule key="javascript:TrailingComma" />
+      <Rule key="typescript:S139" />
+      <Rule key="typescript:S4023" />
+      <Rule key="typescript:S1117" />
       <Rule key="javascript:S1530" />
-      <Rule key="Web:IllegalTagLibsCheck" />
-      <Rule key="typescript:S2966" />
-      <Rule key="javascript:S1131" />
+      <Rule key="javascript:S3353" />
+      <Rule key="typescript:S1438" />
       <Rule key="typescript:S2208" />
+      <Rule key="typescript:S3973" />
       <Rule key="typescript:S3533" />
+      <Rule key="javascript:S2260" />
+      <Rule key="javascript:S1172" />
+      <Rule key="javascript:S2428" />
       <Rule key="javascript:S1537" />
       <Rule key="Web:PageWithoutFaviconCheck" />
-      <Rule active="false" key="javascript:S3317" />
-      <Rule key="Web:MouseEventWithoutKeyboardEquivalentCheck" />
-      <Rule key="javascript:S3798" />
-      <Rule key="javascript:S1539" />
-      <Rule key="Web:LinksIdenticalTextsDifferentTargetsCheck" />
+      <Rule key="javascript:S3758" />
+      <Rule key="javascript:S3317" />
+      <Rule key="javascript:S3514" />
+      <Rule key="javascript:S2424" />
+      <Rule key="javascript:S3512" />
+      <Rule key="css:S4664" />
+      <Rule key="typescript:S121" />
+      <Rule key="javascript:S122" />
+      <Rule key="javascript:S121" />
+      <Rule key="typescript:S1440" />
+      <Rule key="typescript:S1441" />
     </rules>
   </component>
 </application>
