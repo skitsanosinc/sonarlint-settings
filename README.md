@@ -6,7 +6,7 @@ Replacing your existing SonarLint rules is not exactly a straightforward operati
 
 On OSX:
 ```
-~/Library/Application Support/JetBrains/{WEBSTORM_VERSION}/settingsRepository/repository
+~/Library/Application Support/JetBrains/{WEBSTORM_VERSION}/options
 ```
 
 On Windows:
